@@ -3,6 +3,7 @@ This library only supports Android and works with Select Android pos only
 
 # Installation
 > `$ yarn add react-native-pos`
+> `$ react-native link`
 
 # Usage
 ```jsx
