@@ -89,6 +89,6 @@ public class RNReactNativePosModule extends ReactContextBaseJavaModule {
     addText(" ");
     addText(" ");
     int status = printer.setPrintStart();
-    res.resolve(status != SdkResult.SDK_OK);
+    res.resolve(status == SdkResult.SDK_OK);
   }
 }
